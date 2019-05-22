@@ -21,7 +21,27 @@
     background-color: #525252;
 }
 
+/*---------------------------special paddings/margin/text */
+
+h1, h2, h3, h4, h5{
+    margin:0; 
+}
+
+.uppercase{
+    text-transform:uppercase;
+}
+
+.general-sub{
+    font-family: "Alegreya SC", serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
 /*---------------------------Heading */
+
+#nav{
+    margin:0;
+}
 
 header {
     margin:0;
@@ -92,7 +112,7 @@ header {
     font-size: 26px;
 }
 
-menuitem span{
+.menuitem span{
     display:block;
     width:100%;
     padding-top:5px;
@@ -101,4 +121,20 @@ menuitem span{
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 2px;
+}
+
+/*---------------------------Footer */
+
+footer{
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin:0;
+}
+
+/*---------------------------Hover.css */
+
+.hvr-sweep-to-bottom:before{
+    background: rgba(255, 255, 255, 0.2);
+    height:120px;
 }
