@@ -73,14 +73,25 @@ header {
 }
 
 .logo {
-    background: url("../images/Wolf-stortle.jpeg");
+    background: url("../images/Wolf-hunt.jpeg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     min-height: 360px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+}
+
+.logo:hover {
+    background: url("../images/Wolf-stortle.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 360px;
+    transition: all;
+    -moz-transition: all;
+    -webkit-transition: all;
 }
 
 .heading {
@@ -205,4 +216,15 @@ footer{
 .hvr-sweep-to-bottom:before{
     background: rgba(255, 255, 255, 0.2);
     height:120px;
+}
+
+/*---------------------------three reasons */
+
+.three-reasons-icon{
+    font-size: 26px;
+    color: #e67e22;
+}
+
+.three-reasons-heading{
+    margin-bottom:15px;
 }
