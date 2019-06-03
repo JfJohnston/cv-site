@@ -21,6 +21,10 @@
     background-color: #525252;
 }
 
+.bg-color-three-reasons{
+    background-color: #ffffff
+}
+
 /*---------------------------special paddings/margin/text */
 
 h1, h2, h3, h4, h5{
@@ -39,6 +43,23 @@ h1, h2, h3, h4, h5{
 
 .inline-block{
     display: inline-block;
+}
+
+.row-table{
+    display: table;
+}
+
+.section-column{
+    display:table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading{
+    font-family: "Alegreya SC", serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
 }
 
 /*---------------------------Heading */
