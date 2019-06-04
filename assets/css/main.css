@@ -66,6 +66,12 @@ h1, h2, h3, h4, h5{
     margin-bottom: 40px;
 }
 
+.skill-title {
+    font-family: "Alegreya SC", serif;
+    font-weight: 300;
+    color: #232323
+}
+
 /*---------------------------Heading */
 
 #nav{
